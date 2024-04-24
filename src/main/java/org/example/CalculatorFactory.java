@@ -4,7 +4,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CalculatorFactory {
-    private Map<Class<? extends Call>, CallCostCalculator> calculators;
+    private Map<Class<? extends Call>, CallCostCalculator> calculators; //mapping for the calculators
 
     public CalculatorFactory() {
         this.calculators = new HashMap<>();
